@@ -1,0 +1,19 @@
+/* Global */
+
+body {
+  font-family: Arial;
+}
+
+/* Banner Principal */
+
+#intro {
+  background-image: url("../img/home_banner_principal.jpg");
+  height: 400px;
+}
+
+@media (min-width: 576px) {
+  #intro {
+    height: 600px;
+  }
+}
+
